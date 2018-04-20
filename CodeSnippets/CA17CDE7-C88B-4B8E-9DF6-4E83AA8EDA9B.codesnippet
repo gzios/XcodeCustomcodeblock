@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>gz_addImgAnimation</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> UIImageView *imageView =[[UIImageView alloc] init];
+    imageView.frame =&lt;#(CGRect)#&gt;;
+    [imageView setImage:&lt;#(UIImage * _Nullable)#&gt;];
+    [imageView setHighlightedImage:&lt;#(UIImage * _Nullable)#&gt;];
+    [imageView setUserInteractionEnabled:&lt;#(BOOL)#&gt;];
+    [imageView setHighlighted:&lt;#(BOOL)#&gt;];
+    [imageView setTintColor:&lt;#(UIColor * _Nullable)#&gt;];
+    [imageView setContentMode:&lt;#(UIViewContentMode)#&gt;];
+    [imageView setAnimationImages:&lt;#(NSArray&lt;UIImage *&gt; * _Nullable)#&gt;];
+    [imageView setHighlightedAnimationImages:&lt;#(NSArray&lt;UIImage *&gt; * _Nullable)#&gt;];
+    [imageView setAnimationDuration:&lt;#(NSTimeInterval)#&gt;];
+    [imageView setAnimationRepeatCount:&lt;#(NSInteger)#&gt;];
+    [&lt;#self#&gt; addSubview:imageView];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CA17CDE7-C88B-4B8E-9DF6-4E83AA8EDA9B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>添加带有动画组的imageView</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>gz_addImgAnimation</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

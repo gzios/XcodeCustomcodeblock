@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>gz_theBtn</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>StringOrComment</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIButton * button =[UIButton buttonWithType:UIButtonTypeCustom];
+    [button setFrame:CGRectMake(100, 100, 200, 200)];
+    [button setTitle:&lt;#(nullable NSString *)#&gt; forState:&lt;#(UIControlState)#&gt;];
+    [button setTitleColor:&lt;#(nullable UIColor *)#&gt; forState:&lt;#(UIControlState)#&gt;];
+    [button setTitleShadowColor:&lt;#(nullable UIColor *)#&gt; forState:&lt;#(UIControlState)#&gt;];
+    [button setImage:&lt;#(nullable UIImage *)#&gt; forState:&lt;#(UIControlState)#&gt;];
+    [button setBackgroundImage:&lt;#(nullable UIImage *)#&gt; forState:&lt;#(UIControlState)#&gt;];
+    [button setAttributedTitle:&lt;#(nullable NSAttributedString *)#&gt; forState:&lt;#(UIControlState)#&gt;];
+    [button titleForState:&lt;#(UIControlState)#&gt;];
+    [button titleColorForState:&lt;#(UIControlState)#&gt;];
+    [button titleShadowColorForState:&lt;#(UIControlState)#&gt;];
+    [button imageForState:&lt;#(UIControlState)#&gt;];
+    [button backgroundImageForState:&lt;#(UIControlState)#&gt;];
+    [button attributedTitleForState:&lt;#(UIControlState)#&gt;];
+    [button backgroundRectForBounds:&lt;#(CGRect)#&gt;];
+    [button contentRectForBounds:&lt;#(CGRect)#&gt;];
+    [button titleRectForContentRect:&lt;#(CGRect)#&gt;];
+    [button imageRectForContentRect:&lt;#(CGRect)#&gt;];
+    [button addTarget:self action:&lt;#(nonnull SEL)#&gt; forControlEvents:&lt;#(UIControlEvents)#&gt;];
+    [button setSelected:&lt;#(BOOL)#&gt;];
+    [button setEnabled:&lt;#(BOOL)#&gt;];
+    [button setUserInteractionEnabled:&lt;#(BOOL)#&gt;];
+    UIBezierPath * maskPath = [UIBezierPath bezierPathWithRoundedRect:button.layer.bounds byRoundingCorners:UIRectCornerAllCorners cornerRadii:CGSizeMake(button.layer.bounds.size.width*.5, button.layer.bounds.size.height*.5)];
+    CAShapeLayer *shapeLayer = [CAShapeLayer layer];
+    shapeLayer = [CAShapeLayer layer];
+    shapeLayer.path           = maskPath.CGPath;
+    CAShapeLayer *borderLayer=[CAShapeLayer layer];
+    borderLayer.path    =   maskPath.CGPath;
+    borderLayer.fillColor  = [UIColor clearColor].CGColor;
+    borderLayer.strokeColor    = [UIColor blueColor].CGColor;
+    borderLayer.lineWidth      = 2;
+    borderLayer.frame=button.bounds;
+    button.layer.mask = shapeLayer;
+    [button.layer addSublayer:borderLayer];
+    button.backgroundColor =[UIColor redColor];
+    [&lt;#self#&gt; addSubview:button];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0AC91292-A2E8-4425-A2B1-132058240089</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Btn属性</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>gz_theBtn</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

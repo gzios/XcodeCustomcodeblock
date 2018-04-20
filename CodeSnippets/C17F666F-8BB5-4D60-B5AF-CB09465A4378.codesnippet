@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>gz_addImgSimple</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    UIImageView *imageView =[[UIImageView alloc] init];
+    imageView.frame =&lt;#(CGRect)#&gt;;
+    [imageView setImage:&lt;#(UIImage * _Nullable)#&gt;];
+    [imageView setHighlightedImage:&lt;#(UIImage * _Nullable)#&gt;];
+    [imageView setUserInteractionEnabled:&lt;#(BOOL)#&gt;];
+    [imageView setHighlighted:&lt;#(BOOL)#&gt;];
+    [imageView setTintColor:&lt;#(UIColor * _Nullable)#&gt;];
+    [imageView setContentMode:&lt;#(UIViewContentMode)#&gt;];
+    [&lt;#self#&gt; addSubview:imageView];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C17F666F-8BB5-4D60-B5AF-CB09465A4378</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>添加一个简单的ImgView</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>gz_addImgSimple</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

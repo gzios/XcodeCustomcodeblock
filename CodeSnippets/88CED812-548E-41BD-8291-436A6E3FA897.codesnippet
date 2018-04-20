@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>gz_addLabelSimple</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    UILabel *lable =[[UILabel alloc] init];
+    [lable setText:&lt;#(NSString * _Nullable)#&gt;];
+    [lable setFont:&lt;#(UIFont * _Nullable)#&gt;];
+    [lable setTextColor:&lt;#(UIColor * _Nullable)#&gt;];
+    [lable setShadowColor:&lt;#(UIColor * _Nullable)#&gt;];
+    [lable setShadowOffset:&lt;#(CGSize)#&gt;];
+    [lable setTextAlignment:&lt;#(NSTextAlignment)#&gt;];
+    [lable setLineBreakMode:&lt;#(NSLineBreakMode)#&gt;];
+    [lable setAttributedText:&lt;#(NSAttributedString * _Nullable)#&gt;];;
+    [lable setHighlightedTextColor:&lt;#(UIColor * _Nullable)#&gt;];
+    [lable setHighlighted:&lt;#(BOOL)#&gt;];
+    [lable setEnabled:&lt;#(BOOL)#&gt;];
+    [lable setNumberOfLines:&lt;#(NSInteger)#&gt;];
+    [lable setLineBreakMode:&lt;#(NSLineBreakMode)#&gt;];
+    [&lt;#self#&gt; addSubview:lable];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>88CED812-548E-41BD-8291-436A6E3FA897</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>添加一个简单的Label；</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>gz_addLabelSimple</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

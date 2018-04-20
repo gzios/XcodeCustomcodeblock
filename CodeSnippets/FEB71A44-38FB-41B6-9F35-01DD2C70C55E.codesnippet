@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>gz_addImgRoundedBorder</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIImageView *imageView =[[UIImageView alloc] init];
+    imageView.frame =&lt;#(CGRect)#&gt;;
+    [imageView setImage:&lt;#(UIImage * _Nullable)#&gt;];
+    [imageView setHighlightedImage:&lt;#(UIImage * _Nullable)#&gt;];
+    [imageView setUserInteractionEnabled:&lt;#(BOOL)#&gt;];
+    [imageView setHighlighted:&lt;#(BOOL)#&gt;];
+    [imageView setTintColor:&lt;#(UIColor * _Nullable)#&gt;];
+    [imageView setContentMode:&lt;#(UIViewContentMode)#&gt;];
+    UIBezierPath * maskPath = [UIBezierPath bezierPathWithRoundedRect:imageView.layer.bounds byRoundingCorners:UIRectCornerAllCorners cornerRadii:CGSizeMake(imageView.layer.bounds.size.width*.5, imageView.layer.bounds.size.height*.5)];
+    CAShapeLayer *shapeLayer = [CAShapeLayer layer];
+    shapeLayer = [CAShapeLayer layer];
+    shapeLayer.path           = maskPath.CGPath;
+    CAShapeLayer *borderLayer=[CAShapeLayer layer];
+    borderLayer.path    =   maskPath.CGPath;
+    borderLayer.fillColor  = [UIColor clearColor].CGColor;
+borderLayer.strokeColor    = &lt;#UIColor#&gt;.CGColor;
+borderLayer.lineWidth      = &lt;#2#&gt;;
+    borderLayer.frame=imageView.bounds;
+    imageView.layer.mask = shapeLayer;
+    [imageView.layer addSublayer:borderLayer];
+    [&lt;#self#&gt; addSubview:imageView];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FEB71A44-38FB-41B6-9F35-01DD2C70C55E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>添加一个圆角边框的ImgView</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>gz_addImgRoundedBorder</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

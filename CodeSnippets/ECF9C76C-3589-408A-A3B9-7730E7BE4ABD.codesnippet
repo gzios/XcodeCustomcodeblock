@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>gz_addBtnBorder</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIButton * button =[UIButton buttonWithType:&lt;#(UIButtonType)#&gt;];
+    [button setFrame:&lt;#(CGRect)#&gt;];
+    [button setTitle:&lt;#(nullable NSString *)#&gt; forState:UIControlStateNormal];
+    [button setTitle:&lt;#(nullable NSString *)#&gt; forState:UIControlStateSelected];
+    [button setTitleColor:&lt;#(nullable UIColor *)#&gt; forState:UIControlStateNormal];
+    [button setTitleColor:&lt;#(nullable UIColor *)#&gt; forState:UIControlStateSelected];
+    [button setImage:&lt;#(nullable UIImage *)#&gt; forState:UIControlStateNormal];
+    [button setImage:&lt;#(nullable UIImage *)#&gt; forState:UIControlStateSelected];
+    [button addTarget:self action:@selector(&lt;#selector#&gt;) forControlEvents:UIControlEventTouchUpInside];
+    UIBezierPath * maskPath =[UIBezierPath bezierPathWithRoundedRect:button.layer.bounds byRoundingCorners:UIRectCornerAllCorners cornerRadii:CGSizeMake(button.layer.bounds.size.width*.5, button.layer.bounds.size.height*.5)];
+    CAShapeLayer *shapeLayer =[CAShapeLayer layer];
+    shapeLayer =[CAShapeLayer layer];
+    shapeLayer.path =maskPath.CGPath;
+    button.layer.mask =shapeLayer;
+    CAShapeLayer *borderLayer=[CAShapeLayer layer];
+    borderLayer.path    =   maskPath.CGPath;
+    borderLayer.fillColor  = [UIColor clearColor].CGColor;
+    borderLayer.strokeColor    = &lt;#UIColor#&gt;.CGColor;
+    borderLayer.lineWidth      = &lt;#2#&gt;;
+    borderLayer.frame=button.bounds;
+    [button.layer addSublayer:borderLayer];
+    [&lt;#self#&gt; addSubview:button];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>ECF9C76C-3589-408A-A3B9-7730E7BE4ABD</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>添加一个圆角边框的Btn</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>gz_addBtnBorder</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

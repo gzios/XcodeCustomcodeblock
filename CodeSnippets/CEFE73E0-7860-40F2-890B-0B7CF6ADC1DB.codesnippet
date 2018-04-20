@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>gz_addImgRounded</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIImageView *imageView =[[UIImageView alloc] init];
+    imageView.frame =&lt;#(CGRect)#&gt;;
+    [imageView setImage:&lt;#(UIImage * _Nullable)#&gt;];
+    [imageView setHighlightedImage:&lt;#(UIImage * _Nullable)#&gt;];
+    [imageView setUserInteractionEnabled:&lt;#(BOOL)#&gt;];
+    [imageView setHighlighted:&lt;#(BOOL)#&gt;];
+    [imageView setTintColor:&lt;#(UIColor * _Nullable)#&gt;];
+    [imageView setContentMode:&lt;#(UIViewContentMode)#&gt;];
+    UIBezierPath * maskPath = [UIBezierPath bezierPathWithRoundedRect:imageView.layer.bounds byRoundingCorners:UIRectCornerAllCorners cornerRadii:CGSizeMake(imageView.layer.bounds.size.width*.5, imageView.layer.bounds.size.height*.5)];
+    CAShapeLayer *shapeLayer = [CAShapeLayer layer];
+    shapeLayer = [CAShapeLayer layer];
+    shapeLayer.path           = maskPath.CGPath;
+    imageView.layer.mask = shapeLayer;
+    [&lt;#self#&gt; addSubview:imageView];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CEFE73E0-7860-40F2-890B-0B7CF6ADC1DB</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>添加一个圆形的ImaView</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>gz_addImgRounded</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
